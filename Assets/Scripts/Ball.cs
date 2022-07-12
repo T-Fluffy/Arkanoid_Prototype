@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Ball : MonoBehaviour
 {
     public float speed = 100f;
+    private int score;
+    public Text scoreUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,22 @@ public class Ball : MonoBehaviour
             Vector2 dir = new Vector2(x, 1).normalized;
             // Set Velocity with dir * speed
             GetComponent<Rigidbody2D>().velocity = dir * speed;
+        }
+        /*
+         * A methode that initialize the ball position to the  midile of the screen :
+            if (collision.gameObject.name=="blocker")
+            {
+                transform.position = new Vector3(0, (float)-0.95, 0);
+            }
+        */
+        if (collision.gameObject.tag=="block")
+        {
+            score++;
+            scoreUI.text = score.ToString();
+        }
+        if (collision.gameObject.tag == "restart")
+        {
+            SceneManager.LoadScene("main");
         }
     }
 }
