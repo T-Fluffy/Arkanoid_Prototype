@@ -190,10 +190,10 @@ RectTransform:
   m_Father: {fileID: 2029246126}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.035, y: 0.32257828}
-  m_AnchorMax: {x: 0.21732032, y: 0.48028517}
-  m_AnchoredPosition: {x: 1.1560059, y: 1.4368973}
-  m_SizeDelta: {x: -0.91999817, y: -4.6638985}
+  m_AnchorMin: {x: 0.039115228, y: 0.54928946}
+  m_AnchorMax: {x: 0.16900001, y: 0.6872895}
+  m_AnchoredPosition: {x: -21, y: 0.5}
+  m_SizeDelta: {x: 19.972, y: 1.3361053}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &94243906
 MonoBehaviour:
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -217,7 +217,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1818,10 +1818,10 @@ RectTransform:
   m_Father: {fileID: 2029246126}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.51642966}
-  m_AnchorMax: {x: 0.20910677, y: 0.6675742}
-  m_AnchoredPosition: {x: 4.100006, y: -2.0359993}
-  m_SizeDelta: {x: -4.950001, y: -4.0719995}
+  m_AnchorMin: {x: 0.02059671, y: 0.713579}
+  m_AnchorMax: {x: 0.16900001, y: 0.8582895}
+  m_AnchoredPosition: {x: -11, y: 0}
+  m_SizeDelta: {x: 13.593903, y: -2.0719986}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &784146792
 MonoBehaviour:
@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1845,7 +1845,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2

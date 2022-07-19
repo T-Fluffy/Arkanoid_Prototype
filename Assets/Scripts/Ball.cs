@@ -8,6 +8,7 @@ public class Ball : MonoBehaviour
     public float speed = 100f;
     private int score;
     public Text scoreUI;
+    private EventButtons menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +46,13 @@ public class Ball : MonoBehaviour
         if (collision.gameObject.tag == "restart")
         {
             SceneManager.LoadScene("main");
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("UI");
         }
     }
 }
